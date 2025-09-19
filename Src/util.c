@@ -1811,7 +1811,7 @@ void poweroffPressCheck(void) {
           beepLong(16); 
           adcCalibLim();
           beepShort(5);
-          speedRL = 0.0;
+          speedAvg = 0.0;
           #endif
         }
       } else if (cnt_press > 8) {                         // Short press: power off (80 ms debounce)

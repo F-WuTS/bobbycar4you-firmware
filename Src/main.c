@@ -241,7 +241,7 @@ int main(void) {
     } else {
       drive_mode = 0;
       max_speed = MULTI_MODE_DRIVE_M1_MAX;
-      rate = MULTI_MODE_DRIVE_M1_RATE;
+    poweroffPressCheck  rate = MULTI_MODE_DRIVE_M1_RATE;
       rtP_Left.n_max = rtP_Right.n_max = MULTI_MODE_M1_N_MOT_MAX << 4;
       rtP_Left.i_max = rtP_Right.i_max = (MULTI_MODE_M1_I_MOT_MAX * A2BIT_CONV) << 4;
     }
